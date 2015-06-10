@@ -1,0 +1,12 @@
+create database yzugui;
+
+create table empleados;
+(
+  id_emp varchar(5),
+  nom_emp varchar(30),
+  ape_emp varchar(80),
+  f_emp datetime,
+  sexo_emp bit,
+)
+
+insert empleados value(´yzg01´,´matias´,´rodriguez´,´05-03-1987´,0)
